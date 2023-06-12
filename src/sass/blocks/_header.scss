@@ -1,8 +1,9 @@
 .header {
   &__background {
+    padding-top: 30px;
+    padding-bottom: 50px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
     width: 100%;
     box-shadow: 0 0px 23px -4px rgba(0, 0, 0, 1.2);
     &__mask {
@@ -56,7 +57,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      background-color: black;
+      background-color: #fff;
       transition: all 1s;
       &:nth-of-type(2) {
         top: calc(50% - 7px);
@@ -81,10 +82,7 @@
   }
   .header__info {
     &:nth-child(n) {
-      text-shadow:0px 1px 0 rgb(255,255,255),0px -1px 0 rgb(255,255,255),1px 0px 0 rgb(255,255,255),-1px 0px 0 rgb(255,255,255),1px 1px 0 rgb(255,255,255),1px -1px 0 rgb(255,255,255),-1px 1px 0 rgb(255,255,255),-1px -1px 0 rgb(255,255,255);
-      -webkit-text-shadow:0px 1px 0 rgb(255,255,255),0px -1px 0 rgb(255,255,255),1px 0px 0 rgb(255,255,255),-1px 0px 0 rgb(255,255,255),1px 1px 0 rgb(255,255,255),1px -1px 0 rgb(255,255,255),-1px 1px 0 rgb(255,255,255),-1px -1px 0 rgb(255,255,255);
-      -moz-text-shadow:0px 1px 0 rgb(255,255,255),0px -1px 0 rgb(255,255,255),1px 0px 0 rgb(255,255,255),-1px 0px 0 rgb(255,255,255),1px 1px 0 rgb(255,255,255),1px -1px 0 rgb(255,255,255),-1px 1px 0 rgb(255,255,255),-1px -1px 0 rgb(255,255,255);
-      color: black;
+      color: #fff;
     }
     &__text {
       margin-top: 40px;
@@ -107,11 +105,9 @@
       font-weight: 400;
       font-size: 12px;
       line-height: 160%;
-      // opacity: 0.7;
     }
     &__btn {
       text-shadow: none;
-      border: 1px solid black;
       font-family: 'Roboto', sans-serif, "Arial";
       padding: 10px 20px;
       background: #FF5A05;
