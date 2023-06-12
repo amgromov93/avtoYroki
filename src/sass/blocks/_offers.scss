@@ -1,0 +1,52 @@
+.offers {
+  &__background {
+    background: #FFF9F5;
+    box-shadow: 0 0px 20px -4px rgba(0, 0, 0, 0.8);
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  &__title {
+    margin-bottom: 0;
+    &-question {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  }
+  &__question {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FF5A05;;
+  }
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 240px;
+    margin: 20px 0;
+    padding: 40px 30px;
+    background: #FFFFFF;
+    border: 2px solid rgba(66, 82, 207, 0.1);
+    border-radius: 10px;
+    &__title {
+      line-height: 160%;
+      color: #05000B;
+      font-size: 18px;
+    }
+    &__text {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 160%;
+      color: #05000B;
+      opacity: 0.7;
+    }
+    &:hover {
+      background: #4252CF;
+      & p, h4, path {
+        fill: #FFFFFF;
+        color: #FFFFFF;
+      }
+    }
+  }
+}

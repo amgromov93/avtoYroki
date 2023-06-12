@@ -1,0 +1,85 @@
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  & li > button {
+    font-size: 0;
+    border-radius: 50%;
+    border: 0;
+    width: 12px;
+    height: 12px;
+    margin: 0 10px;
+  }
+}
+
+.slick-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.slick-track {
+  width: 100%;
+}
+
+.slick-dots button {
+  background-color: #4252CF;;
+}
+
+.slick-active > button {
+  background-color: #000848;
+}
+
+.rewiews {
+  position: relative;
+  background-color: #EBEDFF;
+  box-shadow: 0 0px 20px -4px rgba(0, 0, 0, 0.8);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  &__bgi {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 20%;
+    left: 0;
+    opacity: 0.4;
+    transform: rotate(-30deg);
+  }
+  &__box {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__logo {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 60px;
+      height: 60px;
+      border: 2px solid #000848;
+      background-color: white;
+      border-radius: 50%;
+    }
+    &__name {
+      margin-bottom: 30px;
+      font-size: 25px;
+      font-weight: 500;
+      line-height: 160%;
+      text-align: center;
+      color: #05000B;
+    }
+    &__rewiew {
+      margin-bottom: 30px;
+      font-weight: 200;
+      font-size: 12px;
+      line-height: 160%;
+      color: #05000B;
+      text-align: center;
+    }
+  }
+}

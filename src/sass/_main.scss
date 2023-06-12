@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif, "Arial";
+  margin: 0;
+}
+
+body {
+  margin: 0 auto; 
+  min-width: 375px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.body__overflow--none {
+  overflow: hidden;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
