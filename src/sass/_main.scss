@@ -31,3 +31,9 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+@media screen and (min-width: 991px) {
+  .container {
+    padding: 0 70px;
+  }
+}

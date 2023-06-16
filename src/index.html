@@ -8,7 +8,8 @@
 </head>
 <body class="body">
   <header class="header">
-    <div class="header__background" style="background-image: url(./img/headerBackground.jpg)">
+    <div class="header__background" style="
+      background-image: url(./img/headerBackground.jpg)">
       <div class="container header__container">
         <a class="header__logo" href="#">
           <img src="./img/logoAvtoYroki_light.png" alt="logo" width="120" height="70">
@@ -30,34 +31,43 @@
         </div>
       </div>
       <div class="container header__info">
-        <h2 class="header__info__text">Уроки вождіння в Києві</h2>
-        <h1 class="header__info__title">Швидко та якісно навчимо Вас кермуванню!</h1>
-        <p class="header__info__question">Ще вагаєшься? Скоріше натискай кнопку знизу, починай кермувати вже сьогодні!</p>
-        <a class="header__info__btn" href="tel:+380939216404">Зателефонувати</a>
+        <div class="header__info__box">
+          <h2 class="header__info__text">Уроки вождіння в Києві</h2>
+          <h1 class="header__info__title">Швидко та якісно навчимо Вас кермуванню!</h1>
+          <p class="header__info__question">Ще вагаєшься? Скоріше натискай кнопку знизу, починай кермувати вже сьогодні!</p>
+          <a class="header__info__btn" href="tel:+380939216404">Зателефонувати</a>
+        </div>
+        <div class="header__info__img">
+          <img src="./img/avtoschoolCar.png" width="500px" alt="автошкола осокорки Київ">
+        </div>
       </div>
     </div>
   </header>
   <main>
     <section class="advantages container">
       <h3 class="title">Наші переваги</h3>
-      <article class="advantages__box">
-        <p class="advantages__box__quantity">15+ років</p>
-        <p class="advantages__box__title">Стаж викладання</p>
-      </article>
-      <article class="advantages__box">
-        <p class="advantages__box__quantity">100000+</p>
-        <p class="advantages__box__title">Часів навчання</p>
-      </article>
-      <article class="advantages__box">
-        <p class="advantages__box__quantity">3500+</p>
-        <p class="advantages__box__title">Щасливих клієнтів</p>
-      </article>
+      <div class="advantages__box">
+        <article class="advantages__item">
+          <p class="advantages__item__quantity">15+ років</p>
+          <p class="advantages__item__title">Стаж викладання</p>
+        </article>
+        <article class="advantages__item">
+          <p class="advantages__item__quantity">100000+</p>
+          <p class="advantages__item__title">Часів навчання</p>
+        </article>
+        <article class="advantages__item">
+          <p class="advantages__item__quantity">3500+</p>
+          <p class="advantages__item__title">Щасливих клієнтів</p>
+        </article>
+      </div>
     </section>
     <div class="offers__background">
       <section class="offers container">
-        <p class="offers__question">Чому ми?</p>
-        <h3 class="offers__title title">Що ми пропонуємо</h3>
-        <p class="offers__title-question">та чому варто обрати саме нас?</p>
+        <div class="offers--margin">
+          <p class="offers__question">Чому ми?</p>
+          <h3 class="offers__title title">Що ми пропонуємо</h3>
+          <p class="offers__title-question">та чому варто обрати саме нас?</p>
+        </div>
         <article class="offers__box">
           <svg width="38" height="27" viewBox="0 0 58 47" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M34.242 0.633789L0.065918 34.8098V40.3203H5.57633L39.7524 6.14431L34.242 0.633789Z" fill="#1F37FF"/>

@@ -30,3 +30,19 @@
     opacity: 0.8;
   }
 }
+
+@media screen and (min-width: 991px) {
+  .features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content 1fr 1fr;
+    gap: 20px;
+    & :nth-child(1) {
+      grid-column: 1 / -1;
+      margin-bottom: 20px;
+    }
+    &__box {
+      margin: 0;
+    }
+  }
+}
